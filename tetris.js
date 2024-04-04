@@ -75,7 +75,7 @@ function arenaSweep(){
         ++y;
         player.score += rowCount * 10;
         rowCount *= 2
-
+ 
         // handle level ups
         if(player.lines >= 5 && player.level == 1){
             levelUp()
